@@ -1,0 +1,3 @@
+[submodule "mlspp"]
+	path = mlspp
+	url = git@github.com:cisco/mlspp.git
