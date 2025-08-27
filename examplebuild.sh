@@ -1,0 +1,11 @@
+g++ -std=c++17 -o mls_testing mls_testing.cpp \
+  -I/Users/xisentian/Research/dtnwork/ion-dtn-mls/mlspp/include \
+  -I/Users/xisentian/Research/dtnwork/ion-dtn-mls/mlspp/lib/bytes/include \
+  -I/Users/xisentian/Research/dtnwork/ion-dtn-mls/mlspp/lib/tls_syntax/include \
+  -I/Users/xisentian/Research/dtnwork/ion-dtn-mls/mlspp/lib/hpke/include \
+  -L/Users/xisentian/Research/dtnwork/ion-dtn-mls/mlspp/build \
+  -L/Users/xisentian/Research/dtnwork/ion-dtn-mls/mlspp/build/lib/bytes \
+  -L/Users/xisentian/Research/dtnwork/ion-dtn-mls/mlspp/build/lib/hpke \
+  -L/Users/xisentian/Research/dtnwork/ion-dtn-mls/mlspp/build/lib/tls_syntax \
+  -L/opt/homebrew/opt/openssl@3/lib \
+  -lmlspp -lhpke -ltls_syntax -lbytes -lssl -lcrypto -v
