@@ -16,7 +16,8 @@ if ! command -v gnome-terminal &> /dev/null; then
 fi
 
 # Absolute path to top-level ION_NODE_LIST_DIR
-ROOT_DIR="/home/ubuntu/Desktop/ion/ION-DTN/demos/"
+ROOT_DIR=$(pwd)
+# ROOT_DIR="/home/ubuntu/Desktop/ion/ION-DTN/demos/"
 
 # Terminal window settings
 WIDTH=70
