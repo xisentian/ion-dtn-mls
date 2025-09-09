@@ -8,7 +8,7 @@ fi
 
 NODE_COUNT=$1
 BASE_DIR="./bench-ltp-group"
-BIN_NAME="mls_in_line_v11"
+BIN_NAME="mls_in_line_v13"
 
 # Check binary exists
 if [ ! -f "$BIN_NAME" ]; then
@@ -145,6 +145,7 @@ EOL
 
     # copy binary
     cp "$BIN_NAME" "$NODE_DIR/"
+    cp "enable_rule.sh" "$NODE_DIR/"
 done
 
 echo "All nodes created successfully in $BASE_DIR"
