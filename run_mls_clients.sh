@@ -3,7 +3,7 @@
 NODE_COUNT=$1
 GROUP_SIZE=$2
 BASE_DIR="./bench-ltp-group"
-BIN_NAME="mls_in_line_v11"
+BIN_NAME="mls_in_line_v13"
 
 if [ -z "$NODE_COUNT" ] || [ -z "$GROUP_SIZE" ]; then
     echo "Usage: ./run_mls_clients.sh <number_of_nodes> <initial_group_size>"
