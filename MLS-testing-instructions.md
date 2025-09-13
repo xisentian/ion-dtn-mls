@@ -51,5 +51,3 @@ Verify the installation and test it:
 ./start_ion_nodes.sh
 ./run_mls_clients_tmux.sh
 ```
-
-[TODO]: Debug running the mls clients, currently encountering errors. 
